@@ -1,5 +1,3 @@
 # FaceFinde
 
-face sentiment detection
-
-Detector de edad, etnia, sexo, sentimiento
+Identifica y detector de edad, etnia, sexo, sentimiento
