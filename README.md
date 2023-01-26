@@ -18,7 +18,7 @@ Utilizando una combinación de aprendizaje profundo y técnicas tradicionales de
 ### Empezar
 Clonar el repositorio
 
-git clone https://github.com/[your_username]/identity-detection.git
+git clone https://github.com/aratan/FaceFinde.git
 
 ### Instalar los paquetes necesarios
 pip install -r requirements.txt
