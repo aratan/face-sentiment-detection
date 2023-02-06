@@ -35,13 +35,16 @@ for metric in metrics:
 # Análisis de atributos faciales
 analysis = DeepFace.analyze(
     img_path = ruta_imagenes + "0003.png", 
-    actions = ["age", "gender", "emotion", "race"]
+    
     ) 
 
 
 # Imprimimos los resultados     
 print("Is verified: " + usuario["0001.png"], verification["verified"])
+ 
+analysis = analysis[0]
+
 print("Edad: ", analysis["age"])
-print("Sexo: ", analysis["gender"])
+print("Sexo: ", analysis["dominant_gender"])
 print("Emoción: ", analysis["dominant_emotion"])
 print("Etnia: ", analysis["dominant_race"])
